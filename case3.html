@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title> Josh Mountain Website</title>
+  </head>
+  <body>
+  <header>
+
+    <link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Overlock&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+<!-- Section adds Image and Title Text + Annoying inline script, looks worse but is simpler for me at the moment-->
+<div id=TOP1>
+    <img src="Profile Pic.jpg" class="pic1">
+    <p class="Title"> Josh Mountain </p>
+</div>
+
+    <nav id="TopNav">
+      <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+
+      <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+      }
+      </script>
+<a href="lab5.html">Home</a>
+  <div class="dropdown">
+  <a class="dropbtn">Case Studies</button>
+  <div class="dropdown-content">
+  <a href="case1.html">SFU</a>
+  <a href="case2.html">Vancouver Whitecaps</a>
+  <a href="case3.html">Crescendo</a>
+  <a href="case4.html">JAYU</a>
+  </div>
+</div>
+    
+        <a href="page3.html">Contact</a>
+        </nav>
+        </header>
+<!--Hamburger Bar-->
+        <main id="MAIN">
+          <style>
+          .container {
+            display: inline-block;
+            cursor: pointer;
+            margin-top: .5em;
+            margin-left: .5em;
+          }
+
+          .bar1, .bar2, .bar3 {
+            width: 35px;
+            height: 5px;
+            background-color: #333;
+            margin: 6px 0;
+            transition: 0.4s;
+          }
+
+          .change .bar1 {
+            -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+            transform: rotate(-45deg) translate(-9px, 6px);
+          }
+
+          .change .bar2 {opacity: 0;}
+
+          .change .bar3 {
+            -webkit-transform: rotate(45deg) translate(-8px, -8px);
+            transform: rotate(45deg) translate(-8px, -8px);
+          }
+          </style>
+          </head>
+
+
+<!-- Main Content-->
+ <nav id="MAIN2">
+   <section class="Story">
+     <h1 id="MyStory">Crescendo Brewing Co.</h1>
+     <p id="StoryText"> Crescendo was the first major business case study I have had the priviledge of developing from day 1. I contributed extensively to the Wireframes and Adobe Xd Prototype of the Website. Myself and my Business Partner designed the logo from scratch.  </p>
+<br>
+<article class="Imset1">
+  <img src="logo3.png" alt="" id="glacier">
+</article>​
+<br>
+<p id="StoryText"> Below is the Styleguide PDF created by Josh Mountain & Anthony Cervi. Giving insight into the Brand and logo creation. </p>
+
+<embed src="cbcpdf.pdf" width="800px" height="2100px" class="pdf" />
+<style>
+  .pdf {
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+  }
+  </style>
+   </section>
+</nav>
+
+<!-- END OF FIRST 2 DIVS-->
+  </main>
+<section class="CaseStudy">
+<h1 id="MyStory2"> Case Studies</h1>
+<div class="gallery">
+  <a target="case1.html" href="case1.html">
+    <img src="logo1.jpg" alt="Cinque Terre" class="Imset1">
+  </a>
+  <div id="StoryText">Simon Fraser University Men's Hockey Team</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="case2.html">
+    <img src="logo2.png" alt="Forest" class="Imset1">
+  </a>
+  <div id="StoryText">Vancouver Whitecaps FC</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="case3.html">
+    <img src="logo3.png" alt="Northern Lights" class="Imset1">
+  </a>
+  <div id="StoryText">Crescendo Brewing Co.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="case4.html">
+    <img src="logo4.gif" alt="Mountains" class="Imset1">
+  </a>
+  <div id="StoryText">JAYU</div>
+</div>
+</div>
+</section>
+  <br>
+  <section class="VidGal">
+<!-- <h1 id="MyStory2">Video Gallery</h1>
+<video width=40% height=40% controls class="video">
+  <source src="Video1.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+<br>
+<br>
+<br>
+<br>
+<br>
+<video width=40% height=40% controls class="video">
+  <source src="video2.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</section>
+</video>
+<form class="MyStory" action="mailto:josh_mountain@live.com" method="post" enctype="text/plain">
+Name:<br>
+<input class="MyStory" type="text" name="name"><br>
+E-mail:<br>
+<input class="MyStory" type="text" name="mail"><br>
+Comment:<br>
+<input class="MyStory" type="text" name="comment" size="50"><br><br>
+<input class="MyStory" type="submit" value="Send">
+<input class="MyStory" type="reset" value="Reset">
+</form>-->
+<footer class="MyStory">
+  <p class="footer"> © JoshGlacierStudios 2019 Designed and Developed by Josh Mountain </p>
+
+
+  </body>
+</html>
